@@ -20,7 +20,8 @@ blink.ChangeDutyCycle(50) #start blinking the mouthpiece LED as the text is conv
 
 #str1="testing speaker"
 
-cmd_speak="sudo espeak -ven-us+" + gender + "5 -s120 " + "'" + text + "'"
+#cmd_speak="sudo espeak -ven-us+" + gender + "5 -s120 " + "'" + text + "'"
+cmd_speak="sudo espeak -ven-us+" + gender + "5 -s120 " + "'" + text + "'" + " --stdout |aplay"
 
 os.system(cmd_speak)
 
