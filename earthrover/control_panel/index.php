@@ -84,16 +84,6 @@ printf("<div align='center' id='box_outer'>");//------------------------
 				echo"</div>";
 				
 				echo"<div style='float:left;width:15%;margin-left:5%;border:0px solid red'>";
-					$href_obj= 'http://'.$host."/earthrover/object_detection/web";
-					echo"<a href='$href_obj' target='_blank'><button><img src='css/images/obj.png' height='40px'></button></a>";
-				echo"</div>";
-				
-				echo"<div style='float:left;width:15%;margin-left:5%;border:0px solid red'>";
-					$href_obj= 'http://'.$host.':2204';
-					echo"<a href='$href_obj' target='_blank'><button><img src='css/images/track.png' height='35px'></button></a>";
-				echo"</div>";
-				
-				echo"<div style='float:left;width:15%;margin-left:5%;border:0px solid red'>";
 					$href_obj= 'https://'.$host."/earthrover/compass/readme.html";
 					echo"<a href='$href_obj' target='_blank'><button><img src='css/images/compass.png' height='35px'></button></a>";
 				echo"</div>";
