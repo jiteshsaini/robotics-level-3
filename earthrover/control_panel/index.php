@@ -84,7 +84,7 @@ printf("<div align='center' id='box_outer'>");//------------------------
 				echo"</div>";
 				
 				echo"<div style='float:left;width:15%;margin-left:5%;border:0px solid red'>";
-					$href_obj= 'https://'.$host."/earthrover/compass/readme.html";
+					$href_obj= 'https://'.$host."/earthrover/compass";
 					echo"<a href='$href_obj' target='_blank'><button><img src='css/images/compass.png' height='35px'></button></a>";
 				echo"</div>";
 				
