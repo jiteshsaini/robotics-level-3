@@ -2,11 +2,7 @@
 include_once '../vars.php';
 
 $deg=$_POST["heading_cmd"];
-/*
-$myfile = fopen("comm.txt", "w") or die("Unable to open file!");
-fwrite($myfile, $deg);
-fclose($myfile);
-*/
+
 global $course;
 $course=get_current_heading();
 
@@ -130,59 +126,5 @@ function get_current_heading(){
 	return $h;
 }
 
-
-/*
-function process_str($str){
-	//set_speed('50');
-	global $course;
-	
-	$arr=str_split($str, 1);
-
-	for($i=0;$i<sizeof($arr);$i++){
-	
-		$dir=$arr[$i];
-	
-		if($dir=="l")
-			turn_left('90');
-		elseif($dir=="r")
-			turn_right('90');
-		else{
-			
-			move($dir);
-			usleep(1000 * 1000); //forward back motion time
-			turn($course);
-		}
-		
-		move('s');
-		sleep(1); //pause between f r l commands
-	}
-}
-*/
-
-/*
-function turn_left($deg){
-	$h=get_current_heading();
-	$h_current=intval($h);
-	
-	$h_final=$h_current-$deg;
-	if($h_final<0)
-		$h_final=360-abs($h_final);
-	
-	//echo"left: $h_final<br>";
-	turn($h_final);
-}
-function turn_right($deg){
-	$h=get_current_heading();
-	$h_current=intval($h);
-	
-	$h_final=$h_current+$deg;
-	if($h_final>=360)
-		$h_final=$h_final-360;
-	
-	//echo"right: $h_final<br>";
-	
-	turn($h_final);
-}
-*/
 
 ?>
