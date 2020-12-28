@@ -8,6 +8,10 @@ This data is then utilised to control the robotic motion.
 
 The folders containing the code for this level are mentioned below. They are present inside the 'earthrover' directory.
 
+## compass
+
+The project demonstrates how to access smartphone's compass data using javascript and use the smartphone as a compass sensor for Robot. The technique achieves precise direction control of the robot. You can try the Web applications developed for this project using your own smartphone and control the simulated robot by visiting the this <a href='helloworld.co.in/earthrover/compass/'>link</a>
+
 ## accelerometer
 
 This folder contains the web application which accesses the accelerometer data of a smart phone. Tilting or moving the phone results in change in x, y & z accelerometer data.
