@@ -10,7 +10,7 @@ The folders containing the code for this level are mentioned below. They are pre
 
 ## compass
 
-The project demonstrates how to access smartphone's compass data using javascript and use the smartphone as a compass sensor for Robot. The technique achieves precise direction control of the robot. You can try the Web applications developed for this project using your own smartphone and control the simulated robot by visiting the this <a href='helloworld.co.in/earthrover/compass/'>link</a>
+The project demonstrates how to access smartphone's compass data using javascript and use the smartphone as a compass sensor for Robot. The technique achieves precise direction control of the robot. You can try the Web applications developed for this project using your own smartphone and control the simulated robot by visiting the this <a href='https://helloworld.co.in/earthrover/compass/'>link</a>
 
 ## accelerometer
 
