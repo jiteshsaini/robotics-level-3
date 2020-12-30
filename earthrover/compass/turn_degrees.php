@@ -26,7 +26,7 @@ function turn($h_final){
 		
 		move($dir);
 		$delay=$degrees*$accuracy_factor; //turning time  (milliseconds of motion. lesser the degrees, lesser the time)
-		echo "direction: $dir , Angle difference: $degrees ,delay= $delay<br>";
+		//echo "direction: $dir , Angle difference: $degrees ,delay= $delay<br>";
 	
 		usleep($delay * 1);
 		move('s');
@@ -40,7 +40,7 @@ function turn($h_final){
 			//break;
 	}
 	$course=$h_current;
-	echo"<h2>settled in attempts: $k, new course: $course</h2>";
+	//echo"<h2>settled in attempts: $k, new course: $course</h2>";
 	//set_speed('50');
 }
 
