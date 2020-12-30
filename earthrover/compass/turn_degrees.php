@@ -56,29 +56,7 @@ function get_accuracy_factor($deg){
 	
 	if ($deg<6)
 		$k=1;
-		/*
-	if ($deg>=150)
-		$k=9000;
-	
-	if ($deg>=120 and $deg<150)
-		$k=8000;
-	
-	if ($deg>=90 and $deg<=120)
-		$k=7000;
-	
-	if ($deg>=45 and $deg<90)
-		$k=6500;
 		
-	if ($deg>=10 and $deg<45)
-		//$k=500;
-		$k=3500;
-	
-	if ($deg<10)
-		$k=10;
-		
-	
-	//echo "acc: $k<br>";
-	* */
 	return $k;
 }
 
