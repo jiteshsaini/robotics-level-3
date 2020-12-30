@@ -9,7 +9,7 @@ var positionCurrent = null;
 function onHeadingChange(event) {
    var orientation = event.alpha;
   // var orientation = getBrowserOrientation();
-  if (typeof orientation !== "undefined" && orientation !== null) { // && typeof orientation !== "undefined") {
+  if (typeof orientation !== "undefined" && orientation !== null) { 
       positionCurrent = orientation;
 
       var phase = positionCurrent < 0 ? 360 + positionCurrent : positionCurrent;
